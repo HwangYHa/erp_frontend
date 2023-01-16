@@ -1,0 +1,585 @@
+/* 
+.homeContent {
+    background: #f0f2f5;
+    min-width: 500px;
+
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.login-frame{
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+.App-logo {
+    width: 350px;
+    height: 235px;
+    top: 200px;
+    right: 435px;
+}
+
+.logo_Text {
+    margin-right: 700px;
+    margin-top: 200px;
+}
+
+
+
+.login {
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1), 0 12px 27px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin-left: 90%;
+    padding: 35px 0px 25px;
+    width: 400px;
+    position: relative;
+    right: 750px;
+    bottom: 300px;
+    text-align: center;
+}
+
+.account {
+    font-size: 17px;
+    width: 364px;
+    display: inline-block;
+    padding: 6px 0;
+}
+
+#email {
+    background: #FFFFFF repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 15px;
+}
+
+#password {
+    background: #FFFFFF repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+.loginBtn {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 365px;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color, 200ms cubic-bezier(.08, .52, .52, 1) box-shadow, 200ms cubic-bezier(.08, .52, .52, 1) transform;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.findPswd {
+    margin-top: 19px;
+}
+
+#contentCurve_01 {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 10px 8px;
+    text-align: center;
+}
+
+.newAccountRegst {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color, 200ms cubic-bezier(.08, .52, .52, 1) box-shadow, 200ms cubic-bezier(.08, .52, .52, 1) transform;
+}
+
+
+.has-text-centered {
+    text-align: center;
+} */
+
+
+
+
+
+
+/* 거성텍 ERP 로그인 페이지 리뉴얼*/
+
+._li._li._li {
+    overflow: initial;
+}
+
+#globalContainer {
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+
+.uiContextualLayerParent {
+    position: relative;
+}
+
+#content {
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+}
+
+.fb_content {
+    min-height: 640px;
+    padding-bottom: 20px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+._95ka {
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+._8op_ {
+    padding-bottom: 40px;
+    padding-top: 62px;
+}
+
+._8icx {
+    padding-top: 82px;
+}
+
+._95k9 {
+    background: #f0f2f5;
+    min-width: 500px;
+}
+
+._8esj {
+    background: #edf0f5;
+}
+
+._8esk {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+
+._8esf ._8esl {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+
+._8esl {
+    display: inline-block;
+    /* margin-right: 15.999px; */
+    /* vertical-align: top; */
+    width: 565px;
+}
+
+._8icx._8opv ._8ice {
+    padding: 112px 0 16px;
+}
+
+._8icx ._8ice {
+    padding: 0 0 24px;
+}
+
+._8icx._8opv ._8ilh {
+    height: 106px;
+    margin: -28px;
+}
+
+._8icx ._8ilh {
+    height: 70px;
+    margin: -20px;
+}
+
+img {
+    border: 0;
+}
+
+._8esj._8esf._8icx._8opv ._8eso {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+._8esj._8esf._8icx ._8eso {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 0 20px;
+}
+
+._8esj._8esf._8ilg ._8eso {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 60px 0 20px;
+}
+
+._8esj._8esf ._8eso {
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    width: 471px;
+}
+
+._8esj._8icx ._8eso {
+    padding-top: 0;
+}
+
+._8esj ._8eso {
+    color: #333;
+    display: inline-block;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding: 42px 0 24px;
+    text-rendering: optimizelegibility;
+    width: 456px;
+}
+
+._-kb h1,
+._-kb h2,
+._-kb h3,
+._-kb h4,
+._-kb h5,
+._-kb h6,
+._-kb p {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1c1e21;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+._8esn {
+    display: inline-block;
+    vertical-align: top;
+}
+
+._8iep {
+    height: 456px;
+    width: 396px;
+}
+
+._8icy ._6luv {
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+
+._52jv {
+    text-align: center;
+}
+._6luv {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+._8icy ._6lux {
+    font-size: 17px;
+    width: 364px;
+}
+._6lux {
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    padding: 6px 0;
+    width: 302px;
+}
+
+._8icy ._6lux ._6luy, ._9aha ._6lux ._6luy {
+    border-radius: 6px;
+}
+._8icy ._6lux ._6luy {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+._6lux ._6luy {
+    font-size: 14px;
+    padding: 5px 8px;
+    width: 284px;
+}
+html ._55r1 {
+    background: #FFFFFF url(../public/img/O7nelmd9XSI.png) repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    /* height: 22px; */
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+
+.inputtext, .inputpassword {
+    padding-bottom: 4px;
+}
+textarea, .inputtext, .inputpassword {
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px;
+}
+
+html ._1kbt._1kbt {
+    font-size: 14px;
+    padding: 5px 8px;
+    width: 284px;
+}
+
+._9nyh {
+    border-color: #dddfe2;
+    box-shadow: none;
+    caret-color: none;
+}
+
+._9npi {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    float: left;
+    font-size: 17px;
+    padding: 0;
+    width: 300px;
+}
+
+.hidden_elem {
+    display: none!important;
+}
+
+._9ls7 {
+    position: relative;
+}
+
+._9lsa {
+    border-radius: 50%;
+    bottom: -25px;
+    height: 28px;
+    position: absolute;
+    right: -8px;
+    width: 28px;
+}
+
+._9lsb {
+    bottom: 6px;
+    height: 16px;
+    position: absolute;
+    right: 6px;
+    width: 16px;
+}
+
+._6ltg {
+    padding-top: 6px;
+}
+
+._8icy ._6lth {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+._42ft {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+._4jy6, ._4jy6._42fr:active, ._4jy6._42fr._42fs {
+    line-height: 42px;
+    padding: 0 24px;
+}
+._4jy1 {
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+._4jy1, ._9w8q, ._4jy2 {
+    color: #fff;
+}
+._4jy0 {
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+._4jy0:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+}
+
+._6ltj {
+    margin-top: 12px;
+}
+._8icy ._6ltj {
+    margin-top: 16px;
+}
+
+._8icy ._6ltj a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+._8icy ._8icz {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+._6ltg {
+    padding-top: 6px;
+}
+
+._8icy ._6lti {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+._42ft {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+._4jy6, ._4jy6._42fr:active, ._4jy6._42fr._42fs {
+    line-height: 42px;
+    padding: 0 24px;
+}
+._4jy2 {
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+._4jy1, ._9w8q, ._4jy2 {
+    color: #fff;
+}
+._4jy0 {
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+._4jy0 {
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+._6lti {
+    font-size: 14px;
+}
+
+._4jy0:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+}
+
+._8esf ._58mk {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+._8ilg ._58mk, ._8icx ._58mk {
+    margin-top: 28px;
+    text-align: center;
+}
+
+._8f3m ._58mk {
+    margin-top: 42px;
+    text-align: center;
+}
+._58mk {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+._8esf ._8esh {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+._8f3m ._8esh {
+    color: inherit;
+}

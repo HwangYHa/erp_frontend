@@ -1,0 +1,117 @@
+.section-3 {
+    top: 105px;
+    position: absolute;
+    width: 220px;
+    z-index: 4;
+    /* top: 97px; */
+    bottom: 0;
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #fbfbfb;
+    transition: all ease .2s;
+    border-right: 1px solid #ddd;
+}
+
+
+
+
+.section-3>ul.on {
+    display: block;
+}
+
+.section-3>ul {
+    bottom: 40px;
+}
+.section-3>ul {
+    display: none;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.section-3 ul li {
+    position: relative;
+}
+
+.section-3>ul>li.on>a {
+    background-color: #005b9e;
+    color: #fff;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.section-3>ul>li>a {
+    display: block;
+    word-break: break-all;
+    padding: 6px 11px;
+    color: #333;
+    border-radius: 30px;
+}
+
+.section-3>ul>li a {
+    position: relative;
+}
+
+.section-3>ul>li.on>a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    top: -150px;
+    right: -90px;
+    background: linear-gradient(to right,transparent,rgba(255,255,255,.2) 35.71%,rgba(255,255,255,.2) 62.61%,rgba(0,0,0,0));
+}
+
+.section-3>ul>li.on>a {
+    background-color: #005b9e;
+    color: #fff;
+    font-weight: bold;
+    overflow: hidden;
+}
+.section-3>ul>li>a {
+    display: block;
+    word-break: break-all;
+    padding: 6px 11px;
+    color: #333;
+    border-radius: 30px;
+}
+
+.section-3>ul>li a {
+    position: relative;
+}
+
+
+
+
+
+.section-3>ul>li a>.new-window {
+    cursor: pointer;
+}
+
+.section-3>ul>li a>.new-window, .section-3>ul>li a>.new-window.visible+.label {
+    visibility: hidden;
+}
+
+body:not(.theme-whiteblue):not(.theme-whiteblack):not(.navigation-type3) .section-3>ul>li.on>a>.new-window:before, .navigation-type2 .section-3>ul>li>a>.new-window:before, .navigation-type4 .section-3>ul>li>a>.new-window:before {
+    color: #fff;
+}
+.section-3>ul>li a>.new-window:before {
+    display: inline-block;
+    font-family: font-icon;
+    font-size: 13px;
+    color: #333;
+    content: "";
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    padding-right: 10px;
+}
