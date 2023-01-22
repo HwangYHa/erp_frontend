@@ -1,6 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
+import jwtDecode from "jwt-decode";
+import {useNavigate} from 'react-router-dom';
 import './QuickMenu.css';
+
 export default function QuickMenu() {
+  const [name, setName] = useState('');
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    refreshToken();
+  }, []);
+
+  const refreshToken = async () => {
+    try {
+      const response = await axios.get('http://localhost:5000/token');
+      const decoded = jwtDecode(response.data.accessToken);
+      setName(decoded.name);
+    } catch (error) {
+      if (error.response) {
+        navigate.push("/");
+      }
+    }
+  }
 
   return (
     <>
@@ -25,10 +47,14 @@ export default function QuickMenu() {
 
         <div className="qm-btn-customer-center">
           <div id="customerBtnGroup" className="btn-group">
-          <button className="btn btn-default btn-call-center dropdown-toggle" data-toggle="dropdown" id="ecCustomerSearch">
+            <button className="btn btn-default btn-call-center dropdown-toggle" data-toggle="dropdown" id="ecCustomerSearch">
               고객센터
               <span className="caret"></span>
+              
             </button>
+
+            <h1 className='user-name'>{name} 님 환영합니다!</h1>
+            
             <div id="customerDropdown" className="customer-menu hidden">
               <ul>
                 <li id="ecQABoard"><span className="customer-support-icon customer-support-icon-qna" />온라인/동영상 문의</li>
@@ -45,8 +71,9 @@ export default function QuickMenu() {
             </div>
           </div>
         </div>
+
+        <ul className="qm-link" id="ecMenuFunction" style={{ visibility: "visible" }}>
         
-        <ul className="qm-link" id="ecMenuFunction" style={{ visibility: "visible" }}>  
           <li id="ecRemoteService" className="qm-link-remote">
             <div className="qm-link-dropdown">
               <div className="qm-link-dropdown-header">원격지원</div>
@@ -161,7 +188,7 @@ export default function QuickMenu() {
             </div>
           </li>
 
-          <li id="ecqmgroup" className="qm-link-group"/>
+          <li id="ecqmgroup" className="qm-link-group" />
         </ul>
       </div>
     </>

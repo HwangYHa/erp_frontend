@@ -812,3 +812,8 @@ element.style {}
     display: block;
     margin: 0 auto 5px auto;
 }
+
+.user-name{
+    padding-left: 150px;
+    padding-top: 5px;
+}

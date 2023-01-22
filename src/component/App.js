@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from './Login'
-import Main from './component/Main'
-import ClientRegister from './component/page/ClientRegister'
-import WarehouseRegister from './component/page/WarehouseRegister'
-import ItemRegister from './component/page/ItemRegister'
-import Dashboard from './component/Dashboard';
-import Register from "./component/Register";
+import Login from '../Login'
+import Main from './Main'
+import ClientRegister from './page/ClientRegister'
+import WarehouseRegister from './page/WarehouseRegister'
+import ItemRegister from './page/ItemRegister'
+import Dashboard from './Dashboard';
+import Register from "./Register";
 
 function App() {
 

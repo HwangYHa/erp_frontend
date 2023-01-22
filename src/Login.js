@@ -13,16 +13,13 @@ export default function Login() {
   const Auth = async (e) => {
     e.preventDefault();
     try {
-      console.log("1")
       await axios.post('http://localhost:5000/login', {
         email: email,
         password: password
       });
-      console.log("2")
-      navigate.push("/dashboard");
+      navigate("/erp");
     } catch (error) {
       if (error.response) {
-        console.log("3")
         setMsg(error.response.data.msg);
       }
     }
@@ -47,10 +44,9 @@ export default function Login() {
                       <div className="_6luv _52jv">
                         <section>
                           <form className="_9vtf" id="u_0_2_fs" onSubmit={Auth}>
-                            <input type="hidden" name="jazoest" value="21058" />
-                            <input type="hidden" name="lsd" value="AVqgkgz_qVA" />
+                          <p className="has-text-centered">{msg}</p>
                             <div>
-                              <p className="has-text-centered">{msg}</p>
+                             
                               <div className="_6lux">
                                 <input type="text" className="inputtext _55r1 _6luy" name="email" id="email" placeholder="이메일 또는 전화번호" value={email} onChange={(e) => setEmail(e.target.value)} />
                               </div>
@@ -66,8 +62,6 @@ export default function Login() {
                                 </div>
                               </div>
                             </div>
-                            <input type="hidden" name="login_source" />
-                            <input type="hidden" name="next" />
                             <div className="_6ltg">
                               <button type="submit" className="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" id="u_0_5_Hl">로그인</button>
                             </div>

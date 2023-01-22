@@ -120,11 +120,7 @@
     color: #fff;
     transition: 200ms cubic-bezier(.08, .52, .52, 1) background-color, 200ms cubic-bezier(.08, .52, .52, 1) box-shadow, 200ms cubic-bezier(.08, .52, .52, 1) transform;
 }
-
-
-.has-text-centered {
-    text-align: center;
-} */
+*/
 
 
 
@@ -582,4 +578,10 @@ html ._1kbt._1kbt {
 
 ._8f3m ._8esh {
     color: inherit;
+}
+
+.has-text-centered{
+    text-align: center;
+    color: red;
+    
 }
