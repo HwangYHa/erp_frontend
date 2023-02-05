@@ -47,16 +47,6 @@
     text-decoration: none;
 }
 
-
-a {
-    color: #005b9e;
-    text-decoration: none;
-}
-
-a {
-    background-color: transparent;
-}
-
 /* a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
@@ -171,16 +161,6 @@ a+.link-group {
 
 input {
     line-height: normal;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
 }
 
 input[type="text" i] {

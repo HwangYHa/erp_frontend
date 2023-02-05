@@ -305,8 +305,8 @@ h6 {
 }
 
 ._8icy ._6luv {
-    padding-bottom: 24px;
-    padding-top: 10px;
+    padding-bottom: 22px;
+    padding-top: 15px;
 }
 
 ._52jv {
@@ -580,8 +580,23 @@ html ._1kbt._1kbt {
     color: inherit;
 }
 
-.has-text-centered{
-    text-align: center;
-    color: red;
-    
+
+.login_error_wrap {
+    position: relative;
+    min-height: 34px;
+    margin: 5px 0;
+    padding-right: 40px;
 }
+
+.error_message {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -.5px;
+    color: #ff003e;
+    vertical-align: middle;
+    white-space: pre-line; 
+}
+
+
+

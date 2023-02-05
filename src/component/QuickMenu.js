@@ -24,13 +24,21 @@ export default function QuickMenu() {
     }
   }
 
+  const Logout = async () => {
+    try {
+        await axios.delete('http://localhost:5000/logout');
+        navigate("/");
+    } catch (error) {
+        console.log(error);
+    }
+}
+
   return (
     <>
       <div className="quick-menu show-call-center" id="quick-menu">
-        {/* <div className="qm-toggle" id="qmToggleBtn"></div> */}
         <div className="qm-company-logo">
-          <a href="#" data-toggle="tooltip" data-placement="right" target="_top" data-original-title="(주)가장많이쓰는ERP">
-            <img src="/img/gursungLogo.png" />
+          <a href="/">
+            <img src="/img/gursungLogo.png"/>
           </a>
         </div>
 
@@ -177,7 +185,7 @@ export default function QuickMenu() {
           </li>
           <li id="ecPersonal" className="qm-link-personalization">
           </li>
-          <li id="ecLogout" className="qm-link-logout">
+          <li id="ecLogout" className="qm-link-logout" onClick={Logout}>
             <div className="qm-link-dropdown">
               <div className="qm-link-dropdown-header"> 로그아웃 </div>
               <div className="qm-link-dropdown-contents">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './SidebarItem.css';
 import Sidemenu from './Sidemenu';
 
-export default function SidebarItem({ items, handleChangeCurrentPage }) {
+export default function SidebarItem({ items }) {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (
@@ -24,7 +24,6 @@ export default function SidebarItem({ items, handleChangeCurrentPage }) {
               {click && (
                 <Sidemenu
                   submenus={items.submenu}
-                  handleChangeCurrentPage={handleChangeCurrentPage}
                 />
               )}
             </>

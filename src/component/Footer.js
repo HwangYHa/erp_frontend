@@ -2,6 +2,7 @@ import React from 'react';
 import './Foot.css';
 export default function Footer() {
     return (
+        
         <div className="footer">
             <div id="pageFooter" data-referrer="page_footer" data-testid="page_footer">
                 <ul className="footerUl" data-nocookies="1">
@@ -23,6 +24,7 @@ export default function Footer() {
                 <div className="copyright">
                     <span> Copyright 20**-2021 GURSUNG TECH Co.Ltd.All rights reserved</span>
                 </div>
+                
             </div>
         </div>
     )

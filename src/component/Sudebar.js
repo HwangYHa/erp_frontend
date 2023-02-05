@@ -2,24 +2,20 @@ import React, { useEffect, useState } from 'react';
 import './SidebarItem.css';
 import SidebarItem from './SidebarItem';
 import { SideMenuItems } from './MenuItems';
-
-export default function TestMain({ sideMenuId = -1 }) {
+export default function Sudebar({ sideMenuId = 1 }) {
   const [sideMenuItems, setSideMenuItems] = useState([]);
+  const selectMenu = SideMenuItems.filter((item) => item?.gCode === sideMenuId);
 
   useEffect(() => {
-    setSideMenuItems(
-      SideMenuItems.filter((item) => item?.gCode === sideMenuId),
-    );
+    setSideMenuItems(selectMenu);
   }, [sideMenuId]);
-
   return (
     <div className="main">
       <div className="sidebar">
         {sideMenuItems.map((item, index) => (
-          <SidebarItem key={index} items={item} />
+          <SidebarItem key={index} items={item}></SidebarItem>
         ))}
       </div>
-      <div className="content"></div>
     </div>
   );
 }
