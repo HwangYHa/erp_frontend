@@ -36,8 +36,12 @@
   overflow: hidden; */
 
   color: #fff;
-  padding: 8px 10px;
+  padding: 6px 10px;
 
+}
+
+.dropdown-link.active {
+  background: rgba(0,0,0,.3);
 }
 
 

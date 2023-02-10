@@ -15,18 +15,21 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-      <Main />
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path='/erp/client-Register' element={<ClientRegister />} />
-          <Route path='/erp/Warehouse-Register' element={<WarehouseRegister />} />
-          <Route path='/erp/Item-Register' element={<ItemRegister />} />
+          <Route path="/erp" element={<Main />} >
+            <Route path='client-Register' element={<ClientRegister />} />
+            <Route path='Warehouse-Register' element={<WarehouseRegister />} />
+            <Route path='Item-Register' element={<ItemRegister />} />
+          </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
+
+
   )
 }
 

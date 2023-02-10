@@ -35,6 +35,7 @@ export default function QuickMenu() {
 
   return (
     <>
+    <div className='wrapper-frame-quick-menu'>
       <div className="quick-menu show-call-center" id="quick-menu">
         <div className="qm-company-logo">
           <a href="/">
@@ -198,6 +199,7 @@ export default function QuickMenu() {
 
           <li id="ecqmgroup" className="qm-link-group" />
         </ul>
+      </div>
       </div>
     </>
   );

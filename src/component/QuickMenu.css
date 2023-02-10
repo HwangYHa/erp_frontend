@@ -1,3 +1,7 @@
+.wrapper-frame-quick-menu {
+    position: relative;
+    z-index: 5;
+}
 .quick-menu {
     display: table;
     width: 100%;
@@ -142,23 +146,6 @@ a+.link-group {
     margin-bottom: 0;
 }
 
-.form-control {
-    display: block;
-    width: 100%;
-    height: 26px;
-    padding: 3px 6px;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #d4d4d4;
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    outline: 0;
-    border-radius: 0;
-    -webkit-appearance: none;
-}
-
-
 input {
     line-height: normal;
 }
@@ -227,16 +214,6 @@ input {
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
     margin-left: -1px;
-}
-
-.btn.btn-width-auto,
-[class*="input-group"] .btn,
-.ui-dialog-titlebar .btn,
-.wrapper-pagination>.btn,
-.messenger-chat-footer .btn.send-file,
-.header-search-btn-group .btn-header-search-btn-more {
-    min-width: 0 !important;
-    max-width: none;
 }
 
 .input-group-btn>.btn {

@@ -10,12 +10,10 @@ export default function Sudebar({ sideMenuId = 1 }) {
     setSideMenuItems(selectMenu);
   }, [sideMenuId]);
   return (
-    <div className="main">
-      <div className="sidebar">
-        {sideMenuItems.map((item, index) => (
-          <SidebarItem key={index} items={item}></SidebarItem>
-        ))}
-      </div>
+    <div className="sidebar">
+      {sideMenuItems.map((item, index) => (
+        <SidebarItem key={index} items={item}></SidebarItem>
+      ))}
     </div>
   );
 }

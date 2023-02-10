@@ -23,7 +23,6 @@ export default function LNB({ handleChangeMenuId }) {
     if (showMenuKey === menuKey) {
       setIsShowMenuKey(menuKey);
     } else {
-      console.log('off');
       setIsShowMenuKey(menuKey);
     }
   };
