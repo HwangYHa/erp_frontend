@@ -129,7 +129,7 @@
 
 /* 거성텍 ERP 로그인 페이지 리뉴얼*/
 
-._li._li._li {
+.login-frame {
     overflow: initial;
 }
 
@@ -178,7 +178,7 @@
     min-width: 500px;
 }
 
-._8esj {
+.container {
     background: #edf0f5;
 }
 
@@ -203,11 +203,11 @@
     width: 565px;
 }
 
-._8icx._8opv ._8ice {
+._8icx._8opv .logo {
     padding: 112px 0 16px;
 }
 
-._8icx ._8ice {
+._8icx .logo {
     padding: 0 0 24px;
 }
 
@@ -225,7 +225,7 @@ img {
     border: 0;
 }
 
-._8esj._8esf._8icx._8opv ._8eso {
+.container._8esf._8icx._8opv .title {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: normal;
@@ -233,19 +233,19 @@ img {
     width: 500px;
 }
 
-._8esj._8esf._8icx ._8eso {
+.container._8esf._8icx .title {
     font-size: 24px;
     line-height: 32px;
     padding: 0 0 20px;
 }
 
-._8esj._8esf._8ilg ._8eso {
+.container._8esf._8ilg .title {
     font-size: 24px;
     line-height: 32px;
     padding: 60px 0 20px;
 }
 
-._8esj._8esf ._8eso {
+.container._8esf .title {
     color: #1c1e21;
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     font-size: 32px;
@@ -254,11 +254,11 @@ img {
     width: 471px;
 }
 
-._8esj._8icx ._8eso {
+.container._8icx .title {
     padding-top: 0;
 }
 
-._8esj ._8eso {
+.container .title {
     color: #333;
     display: inline-block;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
@@ -294,7 +294,7 @@ h6 {
     padding: 0;
 }
 
-._8esn {
+.form-wrapper {
     display: inline-block;
     vertical-align: top;
 }
@@ -329,11 +329,11 @@ form {
     padding: 0;
 }
 
-._8icy ._6lux {
+._8icy .input-wrapper {
     font-size: 17px;
     width: 364px;
 }
-._6lux {
+.input-wrapper {
     display: inline-block;
     font-size: 14px;
     margin: auto;
@@ -341,15 +341,15 @@ form {
     width: 302px;
 }
 
-._8icy ._6lux ._6luy, ._9aha ._6lux ._6luy {
+._8icy .input-wrapper ._6luy, ._9aha .input-wrapper ._6luy {
     border-radius: 6px;
 }
-._8icy ._6lux ._6luy {
+._8icy .input-wrapper ._6luy {
     font-size: 17px;
     padding: 14px 16px;
     width: 330px;
 }
-._6lux ._6luy {
+.input-wrapper ._6luy {
     font-size: 14px;
     padding: 5px 8px;
     width: 284px;
@@ -424,7 +424,7 @@ html ._1kbt._1kbt {
     width: 16px;
 }
 
-._6ltg {
+.button-wrapper {
     padding-top: 6px;
 }
 
@@ -487,7 +487,7 @@ html ._1kbt._1kbt {
     text-align: center;
 }
 
-._6ltg {
+.button-wrapper {
     padding-top: 6px;
 }
 
