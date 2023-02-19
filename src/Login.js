@@ -1,4 +1,4 @@
-import React, { useState, useReducer  } from 'react'
+import React, { useReducer } from 'react'
 import axios from 'axios';
 import Footer from './component/Footer';
 import { useNavigate } from 'react-router-dom';
@@ -62,11 +62,11 @@ export default function Login() {
   return (
     <>
       <div className="login-frame">
-      
+
         <div className="uiContextualLayerParent">
           <div className="fb_content clearfix">
             <div>
-            
+
               <div className="container _95k9 _8esf _8opv _8f3m _8ilg _8icx _8op_ _95ka">
                 <div className="_8esk">
                   <div className="_8esl">
@@ -75,18 +75,18 @@ export default function Login() {
                     </div>
                     <h2 className="title">재고관리 시스템</h2>
                   </div>
-             
+
                   <div className="form-wrapper">
                     <div className="_8iep _8icy _9ahz _9ah-">
                       <div className="_6luv _52jv">
                         <section>
                           <form className="form" onSubmit={Auth}>
 
-                      
+
                             <div>
 
                               <div className="input-wrapper">
-                                <input type="text" className="inputtext _55r1 _6luy" name="email" id="email" placeholder="이메일 또는 전화번호" value={state.email}  onChange={(e) => dispatch({ type: 'SET_EMAIL', payload: e.target.value })} />
+                                <input type="text" className="inputtext _55r1 _6luy" name="email" id="email" placeholder="이메일 또는 전화번호" value={state.email} onChange={(e) => dispatch({ type: 'SET_EMAIL', payload: e.target.value })} />
                               </div>
                               <div className="input-wrapper">
                                 <input type="password" className="inputtext _55r1 _6luy" name="pass" id="pass" placeholder="비밀번호" value={state.password} onChange={(e) => dispatch({ type: 'SET_PASSWORD', payload: e.target.value })} />
@@ -116,7 +116,7 @@ export default function Login() {
                         <div className="button-wrapper">
                           <button className="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" onClick={accountCreate}>새 계정 만들기</button>
                         </div>
-                       
+
 
                       </div>
 
@@ -132,9 +132,9 @@ export default function Login() {
         <div>
         </div>
 
-            <Footer />
-          </div>
+        <Footer />
+      </div>
 
-        </>
-        );
+    </>
+  );
 }
