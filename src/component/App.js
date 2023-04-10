@@ -4,7 +4,7 @@ import Login from '../Login'
 import Main from './Main'
 import ClientRegister from './page/ClientRegister'
 import WarehouseRegister from './page/WarehouseRegister'
-import ItemRegister from './page/ItemRegister'
+import ItemRegister from './page/Item'
 import Dashboard from './Dashboard';
 import Register from "./Register";
 import NotFound from "./NotFound";
@@ -22,7 +22,7 @@ function App() {
           <Route path="/erp" element={<Main />} >
             <Route path='client-Register' element={<ClientRegister />} />
             <Route path='Warehouse-Register' element={<WarehouseRegister />} />
-            <Route path='Item-Register' element={<ItemRegister />} />
+            <Route path='Item' element={<ItemRegister />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

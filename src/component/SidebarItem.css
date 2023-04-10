@@ -257,21 +257,6 @@ i a>.new-window {
   vertical-align: middle;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-    margin: 2px 0 0;
-    margin-top: 1px \9;
-    line-height: normal;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-}
-
 .flipswitch-checkbox {
   display: none;
 }
@@ -325,10 +310,3 @@ input[type="radio"] {
   height: 16px;
   padding: 0;
 }
-
-.wrapper-toolbar:before, .wrapper-toolbar:after, .wrapper-sub-title:before, .wrapper-sub-title:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-

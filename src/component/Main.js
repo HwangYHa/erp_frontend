@@ -8,7 +8,7 @@ import { useNavigate, Routes, Route } from 'react-router-dom';
 
 import ClientRegister from './page/ClientRegister'
 import WarehouseRegister from './page/WarehouseRegister'
-import ItemRegister from './page/ItemRegister'
+import Item from './page/Item';
 export default function Main() {
   const [sideMenuId, setSideMenuId] = useState(-1);
   const [expire, setExpire] = useState('');
@@ -53,11 +53,13 @@ export default function Main() {
       <Sidebar sideMenuId={sideMenuId} />
         {/* 메인 컨텐츠 영역 css 처리하기 230206 미해결 */}
         <div className='wrapper-frame-body'>
+          <div style={{display: 'block'}}>
           <Routes>
             <Route path='client-Register' element={<ClientRegister />} />
             <Route path='Warehouse-Register' element={<WarehouseRegister />} />
-            <Route path='Item-Register' element={<ItemRegister />} />
+            <Route path='Item' element={<Item />} />
           </Routes>
+          </div>
         </div>
     </>
   );

@@ -489,7 +489,7 @@ export const SideMenuItems = [
         id: 3,
         title: '품목등록',
         cName: 'sidebar-item',
-        path: '/erp/Item-Register',
+        path: '/erp/item',
         subject: '품목등록리스트',
       },
     ],

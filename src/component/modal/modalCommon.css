@@ -1,7 +1,9 @@
 /* clientRegist css */
 .panel-modal.panel-primary {
     box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+    transform: translate(-42%, -40%);
 }
+
 div[class|="ui"] {
     box-sizing: content-box;
 }
@@ -24,7 +26,7 @@ div[class|="ui"] {
     border-color: #005b9e;
 }
 .panel {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 17px;
     margin-bottom: 0;
     background-color: #fff;
@@ -326,8 +328,12 @@ div[class|="ui"] {
 div[data-ecpageid="ESA002M_2"] .wrapper-form-state-1.wrapper-form {
     max-width: 755px;
 }
+
 .wrapper-form-state-1.wrapper-form {
     min-width: 0;
+}
+.wrapper-header-search .wrapper-form {
+    margin-bottom: 0;
 }
 .wrapper-form {
     list-style: none;
@@ -357,11 +363,8 @@ div[data-ecpageid="ESA002M_2"] .wrapper-form-state-1.wrapper-form {
     min-height: 31px;
 }
 
-div[data-ecpageid="ESA002M_2"] .wrapper-form-state-1.wrapper-form > li > .title {
-    width: 154px;
-}
 .wrapper-form-state-1.wrapper-form>li>.title {
-    width: 120px;
+    width: 154px;
 }
 .wrapper-form>li>.title {
     color: #777;
@@ -396,3 +399,74 @@ div[data-ecpageid="ESA002M_2"] .wrapper-form-state-1.wrapper-form > li > .title 
     color: #444;
 }
 
+.form-radio {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-radio>input[type="radio"] {
+    position: absolute;
+    opacity: 1;
+    width: 17px;
+    height: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+.form-radio>input[type="radio"]+label {
+    display: inline-block;
+    position: relative;
+    line-height: 1;
+    padding: 4px 0 4px 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 3px 0;
+    max-width: none;
+}
+
+.wrapper-form>li>.form .control-set+.control-set {
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+.labelpr5 {
+    padding-right: 5px;
+}
+
+/* .label-default.label-light {
+    background-color: #eee;
+} */
+.label-light {
+    color: #000;
+}
+.label-default {
+    background-color: #999;
+}
+.label {
+    display: inline-block;
+    font-size: 100%;
+    font-weight: normal;
+    padding: 2px 4px 0;
+    line-height: 1.3;
+    /* color: #fff; */
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+.wrapper-attach-file .label {
+    margin-right: 5px;
+    text-align: left;
+}
+.label-default.label-light {
+    background-color: #eee;
+}

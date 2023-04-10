@@ -1,7 +1,56 @@
+/* 모바일 화면에 대한 스타일 */
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+}
+
+/* 태블릿 화면에 대한 스타일 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+}
+
+/* 데스크탑 화면에 대한 스타일 */
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+}
+
 .wrapper-frame-quick-menu {
     position: relative;
     z-index: 5;
 }
+
 .quick-menu {
     display: table;
     width: 100%;
@@ -144,38 +193,6 @@ a+.link-group {
     float: left;
     width: 100%;
     margin-bottom: 0;
-}
-
-input {
-    line-height: normal;
-}
-
-input[type="text" i] {
-    padding: 1px 2px;
-}
-
-input {
-    writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: fieldtext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    background-color: field;
-    margin: 0em;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
 }
 
 .quick-menu>.qm-ecount-search>.input-group>.input-group-btn {
@@ -770,7 +787,7 @@ element.style {}
     margin: 0 auto 5px auto;
 }
 
-.user-name{
+.user-name {
     padding-left: 150px;
     padding-top: 5px;
 }

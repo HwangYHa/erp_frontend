@@ -144,7 +144,7 @@ export default function QuickMenu() {
                 <ul id="ecMessengerList"></ul>
               </div>
             </div>
-            <span id="ecMessengerCount" className="badge">7</span>
+            <span className="badge"/>
           </li>
           <li id="ecsms" className="qm-link-sms">
             <div className="qm-link-dropdown">
@@ -176,21 +176,20 @@ export default function QuickMenu() {
               </div>
             </div>
           </li>
-          <li id="ecBookmark" className="qm-link-favourite">
+          <li className="qm-link-favourite">
             <div className="qm-link-dropdown">
               <div className="qm-link-dropdown-header"> 북마크 </div>
               <div className="qm-link-dropdown-contents">
-                <ul id="ecBookmarkList"></ul>
               </div>
             </div>
           </li>
-          <li id="ecPersonal" className="qm-link-personalization">
+          <li className="qm-link-personalization">
           </li>
-          <li id="ecLogout" className="qm-link-logout" onClick={Logout}>
+          <li className="qm-link-logout" onClick={Logout}>
             <div className="qm-link-dropdown">
               <div className="qm-link-dropdown-header"> 로그아웃 </div>
               <div className="qm-link-dropdown-contents">
-                <ul id="ecLogoutList">
+                <ul>
                   <li><a href="#"><span>퇴근 &amp; 로그아웃</span></a></li>
                 </ul>
               </div>
