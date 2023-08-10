@@ -5,7 +5,7 @@
 
 [   개발 환경   ]
 Node.js
-react
+react.js
 Next.js
 MySql
 ORM
