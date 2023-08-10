@@ -1,7 +1,7 @@
 미리보기(벤치마킹_이카운트ERP)
 * 로그인 화면 : 페이스북 로그인 화면 벤치마킹
 
-<img width="100%" src="https://github.com/HwangYHa/erp_frontend/assets/89735480/1a2acbee-62c4-498a-a3fa-4b1a101ed3b4.gif"/>
+<img width="100%" src="https://github.com/HwangYHa/erp_frontend/assets/89735480/471b3d21-2c2f-4659-b89c-764c73e8968e.gif"/>
 
 [   개발 환경   ]
 Node.js
