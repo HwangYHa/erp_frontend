@@ -4,10 +4,10 @@
 <img width="100%" src="https://github.com/HwangYHa/erp_frontend/assets/89735480/471b3d21-2c2f-4659-b89c-764c73e8968e.gif"/>
 
 [   개발 환경   ]
-Node.js
-react.js
-Next.js
-MySql
+Node.js,
+react.js,
+Next.js,
+MySql,
 ORM
 
 !!DB 설계가 미흡하여 현재 개발중단
