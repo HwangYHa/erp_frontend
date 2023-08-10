@@ -6,11 +6,9 @@
 
 
 [   개발 환경   ]
-- Node.js
-- react.js
-- Next.js
-- MySql
-- ORM
+- 백엔드: Node.js, Next.js
+- 프론트: react.js
+- Database: MySql, ORM
 
 !!DB 설계가 미흡하여 현재 개발중단
 
