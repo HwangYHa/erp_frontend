@@ -1,1 +1,3 @@
-<iframe width="1280" height="688" src="https://www.youtube.com/embed/PouYR8IyEPE" title="거성 ERP   Chrome 2023 08 10 19 17 35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<img width="80%" src="https://github.com/HwangYHa/erp_frontend/assets/89735480/1a2acbee-62c4-498a-a3fa-4b1a101ed3b4.gif"/>
+
+
