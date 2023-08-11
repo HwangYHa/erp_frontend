@@ -6,8 +6,9 @@
 
 
 [   개발 환경   ]
-- 백엔드: Node.js, Next.js
-- 프론트: react.js
+- 백엔드: Node.js, 
+- 프론트(라이브러리): react.js
+- 프레임워크: Next.js
 - Database: MySql, ORM
 
 !!DB 설계가 미흡하여 현재 개발중단
